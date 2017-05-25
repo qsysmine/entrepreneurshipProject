@@ -1,0 +1,19 @@
+print "Rollteq Personalized Therapy";
+before= raw_input("Are you rolling out before your activity? (Type y or n)");
+if before== "y":
+    heat();
+else if before=="no":
+    leg_back=raw_input("Is the pain in your leg or back?" (Type l for leg and b for back)");
+    if leg_back=="l":
+        
+else:
+    break;
+    
+
+def ice() {
+    print "You should use the cooling function of the Rollteq roller";
+}
+
+def heat() {
+    print "You should use the heating function of the Rollteq roller";
+}

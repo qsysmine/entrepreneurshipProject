@@ -1,0 +1,130 @@
+* {
+    font-family: "Libre Baskerville", serif;
+}
+
+html {
+    background-color: #97EBFF;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+p {
+    text-indent: 1in;
+}
+
+h1,
+h2,
+h3 {
+    font-style: italic;
+    color: #9271E8;
+}
+
+h1,
+h2 {
+    font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+    font-size:1.25em;
+}
+
+nav {
+    z-index: 500;
+    margin: 0;
+    max-height: 5em;
+    padding: 1em;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 2em #AAAAAA;
+}
+
+nav>img {
+    height: 3em;
+}
+
+.people {
+    text-align: center;
+}
+
+.person {
+    display: inline-block;
+    width: 49%;
+    margin: 0;
+}
+
+.person>* {
+    color: #111111;
+    max-width: 100%;
+}
+
+.person>img {
+    border-radius: 1em;
+    width:30%;
+}
+
+.sidebar {
+    width: 10vw;
+    z-index: 50;
+}
+
+.hero {
+    padding: 0;
+    position: relative;
+    margin-left: -15vw;
+    margin-right: -15vw;
+    min-height: 0;
+    max-height: 90vh;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 0 1em #AAAAAA;
+}
+
+.hero>img, .hero>.heroContent {
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+#animatedGuideHero, #animatedGuideHero>iframe {
+    height:90vh;
+}
+
+.hero>span>* {
+    display: block;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    bottom: 0.5em;
+    text-shadow: 0 0 3em #0000;
+    right: 0;
+    
+}
+
+#content {
+    overflow:hidden;
+    overflow-y: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    background-color: #97EBFF;
+}
+
+#copy {
+    flex: 1;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    margin: 0;
+    margin-bottom: 1em;
+    z-index: 100;
+    box-shadow: 0 0 1em #AAAAAA;
+}
